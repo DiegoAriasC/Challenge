@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Encriptar</title>
+</head>
+
+    <body>
+        <header>
+                <img src="imagenes/logo.jpeg" alt="Este es el logo de Dtech">
+        </header>            
+        
+        <main>
+            <section>
+                <textarea class="input-texto" cols="69" id="input-texto"  rows="10" placeholder="Ingrese el texto a encriptar" required></textarea>
+
+                    <div class="botones">
+                        <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                        <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    </div>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="69" rows="10" placeholder="Aqui aparecera el texto encriptado"></textarea>
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </section>    
+
+        </main>
+
+        <footer>
+            <img src="imagenes/logo.jpeg" alt="Logo de la Barberia Alura">
+            <p class="copyrigth">&copy Copyright Diego Arias - 2023</p>
+        </footer> 
+    <script src="script.js"></script>
+    </body>
+
+
+</html>    
